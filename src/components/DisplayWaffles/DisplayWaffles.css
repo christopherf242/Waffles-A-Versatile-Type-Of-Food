@@ -1,0 +1,41 @@
+img {
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+h1, h2, h4, p {
+  text-align: center;
+}
+
+/* button {
+  width: 30%;
+  height: 100px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-bottom: 10px;
+} */
+
+.flexboxWaffles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(160,160,160);
+  border-radius: 25px;
+  color: white;
+}
+
+.flexboxButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  /*border: 5px solid blue; */
+}
+
+.flexButton {
+  width: 30%;
+  height: 100px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: white;
+}
