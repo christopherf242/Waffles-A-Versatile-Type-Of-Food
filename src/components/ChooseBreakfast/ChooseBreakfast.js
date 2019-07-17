@@ -10,16 +10,19 @@ const breakfastDescriptions = ["Eggo Blueberry Waffles are some of my favorite w
                               "These Classic Crispy Waffles from the Food Network look like great homestyle waffles.",
                               "Here's some waffles from the Cosmopolitan website. Wait, Chocolate Waffles? Sign Me Up! Peanut Butter sauce is cool too."];
 const breakfastImages = [blueberryWaffles, classicCrispyWaffles, chocolateWafflesWithPeanutButterSauce];
+const breakfastQuickDescriptions = ["Eggo Blueberry Waffles from Target's store website", "Classic Crispy Waffles from the Food Network that look nice, regular waffles",
+                                    "Chocolate Waffles with Peanut Butter Sauce looks very cool."]
 
 
 export class ChooseBreakfast extends React.Component {
   constructor(props){
     super(props); //Notes:Like in java, the first line in javascript component class constructors are constuctor(props)
     this.state = {
+      imageSize: "Small",
       name: breakfastNames,
       wafflesImage: breakfastImages,
       wafflesDescription: breakfastDescriptions,
-      imageSize: "Small",
+      wafflesImageAltAttribute: breakfastQuickDescriptions,
     }
 
     this.handleToggleImageSize = this.handleToggleImageSize.bind(this);
@@ -27,11 +30,11 @@ export class ChooseBreakfast extends React.Component {
 
   handleToggleImageSize(event) {
   // Note: I used event.target.style.nameOfProperty to edit the style: let image = event.target.value;
-    //Debugging comment: console.log("In beginning of handleToggleImageSize function");
+    //Testing output used for dubugging(before): console.log("In beginning of handleToggleImageSize function");
     if(this.state.imageSize === "Small"){
-      this.setState({imageSize: "Original"});
+      this.setState({imageSize: "Large"});
       event.target.style.width = "40%"; //In JavaScript, any units that aren't px(pixels), we have to use a string.
-      event.target.style.height = "50%"; // I made the height bigger since I think there's more space to the left and right of it
+      event.target.style.height = "50%";  // We set the height to 50% of it's parent container
 
     }else{
       this.setState({imageSize: "Small"});
@@ -43,11 +46,11 @@ export class ChooseBreakfast extends React.Component {
   render(){
     return(
       <div>
-        <DisplayWaffles name={this.state.name[0]} wafflesImage={this.state.wafflesImage[0]} handleToggleImageSize={this.handleToggleImageSize}
-         wafflesDescription={this.state.wafflesDescription[0]} />
-        <DisplayWaffles name={this.state.name[1]} wafflesImage={this.state.wafflesImage[1]} handleToggleImageSize={this.handleToggleImageSize}
+        <DisplayWaffles name={this.state.name[0]} wafflesImage={this.state.wafflesImage[0]} altAttribute={this.state.wafflesImageAltAttribute[0]} handleToggleImageSize={this.handleToggleImageSize}
+         wafflesDescription={this.state.wafflesDescription[0]}  />
+        <DisplayWaffles name={this.state.name[1]} wafflesImage={this.state.wafflesImage[1]} altAttribute={this.state.wafflesImageAltAttribute[1]} handleToggleImageSize={this.handleToggleImageSize}
          wafflesDescription={this.state.wafflesDescription[1]} />
-        <DisplayWaffles name={this.state.name[2]} wafflesImage={this.state.wafflesImage[2]} handleToggleImageSize={this.handleToggleImageSize}
+        <DisplayWaffles name={this.state.name[2]} wafflesImage={this.state.wafflesImage[2]} altAttribute={this.state.wafflesImageAltAttribute[2]} handleToggleImageSize={this.handleToggleImageSize}
          wafflesDescription={this.state.wafflesDescription[2]} />
       </div>);
   }

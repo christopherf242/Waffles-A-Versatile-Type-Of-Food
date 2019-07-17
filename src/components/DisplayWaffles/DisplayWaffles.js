@@ -9,7 +9,7 @@ export class DisplayWaffles extends React.Component {
     <div>
       <div className="flexboxWaffles">
         <h2>{this.props.name}</h2>
-        <img src={this.props.wafflesImage} alt={this.props.name} onClick={this.props.handleToggleImageSize}/>
+        <img src={this.props.wafflesImage} alt={this.props.altAttribute} onClick={this.props.handleToggleImageSize}/>
         <h4>{this.props.wafflesDescription}</h4>
       </div>
       <br/>
