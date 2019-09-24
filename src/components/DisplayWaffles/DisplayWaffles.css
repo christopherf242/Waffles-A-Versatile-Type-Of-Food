@@ -8,14 +8,6 @@ h1, h2, h4, p {
   text-align: center;
 }
 
-/* button {
-  width: 30%;
-  height: 100px;
-  background-color: lightgrey;
-  margin: 0 auto;
-  margin-bottom: 10px;
-} */
-
 .flexboxWaffles {
   display: flex;
   justify-content: center;
@@ -25,10 +17,20 @@ h1, h2, h4, p {
   color: white;
 }
 
+/* I decided not to use the button */
+
+/* button {
+  width: 30%;
+  height: 100px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-bottom: 10px;
+} */
+
+/*
 .flexboxButtonContainer {
   display: flex;
   justify-content: space-between;
-  /*border: 5px solid blue; */
 }
 
 .flexButton {
@@ -39,3 +41,4 @@ h1, h2, h4, p {
   margin-bottom: 10px;
   color: white;
 }
+*/
