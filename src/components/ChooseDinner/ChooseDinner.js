@@ -28,18 +28,17 @@ export class ChooseDinner extends React.Component {
   }
 
   handleToggleImageSize(event) {
-  // Note: I used event.target.style.nameOfProperty to edit the style instead of: let image = event.target.value;
-  //Testing output used for dubugging(before): console.log("In beginning of handleToggleImageSize function");
+  // Note: I used event.target.style.nameOfProperty to edit the style: let image = event.target.value;
+    //Testing output used for dubugging(before): console.log("In beginning of handleToggleImageSize function");
     if(this.state.imageSize === "Small"){
-      this.setState({imageSize: "Large"});
-      event.target.style.width = "40%"; //In JavaScript, any units that aren't px(pixels), we have to use a string.
-      event.target.style.height = "50%"; // We set the height to 50% of it's parent container
+      this.setState({imageSize: "Large"}); //We make the image size property in the state object equal to "Large".
+      event.target.style.width = "60%"; //In JavaScript, any units that aren't px(pixels), we have to use a string.
+      event.target.style.height = "60%";  // We set the height to 50% of it's parent container
 
     }else{
       this.setState({imageSize: "Small"});
-      event.target.style.width = "30%";
-      event.target.style.height = "30%";
-
+      event.target.style.width = "45%";
+      event.target.style.height = "45%";
     }
   }
 
