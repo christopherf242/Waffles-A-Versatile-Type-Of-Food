@@ -7,17 +7,32 @@ body {
   padding: 0;
 }
 
-/* "..\img\Blueberry-Eggo-Waffles-pic.png" */
-/* './Blueberry-Eggo-Waffles-pic.png' */
 .jumboBackgroundImage {
   background-image: url('./cbs-detroit-chicken-and-waffles-pic1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.jumbotronText {
+#jumbotronText {
   background-color: rgba(0, 0, 0, 0.4); /* The opacity is 0.4 */
   color: white;
+  text-align: center;
+}
+
+#works-cited {
+  text-align: left;
+  background-color: rgb(160,160,160);
+  color: white;
+  border-radius: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.cited-source {
+  text-align: left;
+  text-indent: 40px;
+}
+
+#works-cited-title {
+  text-align: center;
 }
 
 /*Below I'm editing the bootstrap class that's used for the bottom nav bar */
@@ -25,18 +40,6 @@ body {
   background-color: rgb(160,160,160);
 }
 
-#conclusion{
-  text-align: left;
-  background-color: rgb(160,160,160);
-  color: white;
-  border-radius: 25px;
-  font-family: "Times New Roman", Times, serif;
-}
-
 #bottom-nav {
-
-}
-
-#page-title {
 
 }
