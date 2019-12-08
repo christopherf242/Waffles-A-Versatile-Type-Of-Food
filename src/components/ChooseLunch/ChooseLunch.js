@@ -7,7 +7,7 @@ import { DisplayWaffles } from '../DisplayWaffles/DisplayWaffles'
 const lunchNames = ["Waffles with Ice Cream", "Waffled Brownie Sundae", "Waffled Chocolate Chip Cookies"];
 const lunchImages = [iceCreamAndWaffles, waffledBrownieSundae, waffledChocolateChipCookies];
 const lunchDescriptions = ['Ice Cream and Waffles taste amazing, especially because of the ice cream and because of the chocolate syrup that replaces the regular syrup.',
-  'This Waffled Brownie Sundae from the Food Network looks delicous too.',
+  'This Waffled Brownie Sundae from the Food Network looks delicious too.',
    "Here's some Waffled Chocolate Chip Cookies from the Food Network. The waffles look super cool because they combine two of my favorite types of food: chocolate chip cookies and waffles."];
 const lunchQuickDescriptions = ["Ice Cream and Waffles from school are always great.", "Waffled Brownie Sundae looks just as good",
 "Waffled Chocolate Chip Cookies look like mini cookies that are made of waffles."]
