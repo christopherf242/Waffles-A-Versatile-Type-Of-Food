@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "kind-of": "^6.0.3",
+    "minimist": "^1.2.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
