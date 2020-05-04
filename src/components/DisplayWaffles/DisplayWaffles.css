@@ -12,7 +12,8 @@ h1, h2, h4, p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(89, 89, 89);
+  background-color: #8B4513; /* saddle brown */
+  /*background-color: rgb(89, 89, 89); */
   border-radius: 25px;
   color: white;
 }

@@ -22,12 +22,15 @@ body {
 
 /*Below I'm editing the bootstrap class that's used for the bottom nav bar */
 .nav {
-  background-color: rgb(89, 89, 89);
+  /*background-color: rgb(89, 89, 89);*/
+  background-color: #8B4513;
 }
 
 #conclusion{
   text-align: left;
-  background-color: rgb(89, 89, 89);
+  /*
+  background-color: rgb(89, 89, 89); */
+  background-color: #8B4513;
   color: white;
   border-radius: 25px;
   font-family: "Times New Roman", Times, serif;
