@@ -19,10 +19,9 @@ body {
 
 .navigation-bar-words {
   color: white;
-  border: 4px solid yellow;
+  /*border: 4px solid dodgerblue; */
 }
-/* "..\img\Blueberry-Eggo-Waffles-pic.png" */
-/* './Blueberry-Eggo-Waffles-pic.png' */
+
 .jumboBackgroundImage {
   background-image: url('./cbs-detroit-chicken-and-waffles-pic1.jpg');
   background-repeat: no-repeat;
