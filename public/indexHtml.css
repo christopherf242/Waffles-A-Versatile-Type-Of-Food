@@ -15,6 +15,7 @@ body {
   background-color: #8B4513; /* I think it's a brown color */
   align-items: center; /*Educational notes: puts the words in the center
                             (from top to bottom)*/
+  height: 30%;
 }
 
 .navigation-bar-words {
