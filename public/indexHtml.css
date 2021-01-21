@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-between; /*Educational notes: This is important for
       putting space from left to right between the words */
-  background-color: #8B4513; /* I think it's a brown color */
+  background-color: #8B4513; /* I think the color is called saddle brown */
   align-items: center; /*Educational notes: puts the words in the center
                             (from top to bottom)*/
   height: 30%;
