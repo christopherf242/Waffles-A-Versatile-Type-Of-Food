@@ -15,7 +15,12 @@ body {
   background-color: #8B4513; /* I think it's a brown color */
   align-items: center; /*Educational notes: puts the words in the center
                             (from top to bottom)*/
-  height: 30%;
+
+
+  /* Part 2: placing navigation bar in a fixed position and over the rest of the page */
+  position: fixed;
+  z-index: 2; /*Sets stacking order of elements, so this means that the nav bar is in front */
+  width: 100%;
 }
 
 .navigation-bar-words {
