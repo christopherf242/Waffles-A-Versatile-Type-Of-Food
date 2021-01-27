@@ -7,6 +7,9 @@ body {
   padding: 0;
 }
 
+#navigation-bar-title {
+  border: white solid 5px;
+}
 
 .navigation-bar {
   display: flex;
