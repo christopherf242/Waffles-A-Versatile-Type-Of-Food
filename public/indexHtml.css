@@ -13,11 +13,12 @@ body {
 
 .navigation-bar {
   display: flex;
-  justify-content: space-between; /*Educational notes: This is important for
-      putting space from left to right between the words */
+  justify-content: space-around; /*Educational notes: This is important for
+      putting space from horzinontally(left to right) between the words */
   background-color: #8B4513; /* I think the color is called saddle brown */
   align-items: center; /*Educational notes: puts the words in the center
                             (from top to bottom)*/
+  flex-wrap: wrap;
 
   /* Part 2: placing navigation bar in a fixed position and over the rest of the page */
   position: fixed;
